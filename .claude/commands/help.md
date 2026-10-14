@@ -1,3 +1,7 @@
+---
+description: "List available commands and their accepted options"
+---
+
 # List available commands and their accepted options
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

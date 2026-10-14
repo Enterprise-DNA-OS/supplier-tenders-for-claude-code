@@ -1,3 +1,7 @@
+---
+description: "Define a lot and quantity before opening"
+---
+
 # Define a lot and quantity before opening
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

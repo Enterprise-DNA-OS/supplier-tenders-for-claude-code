@@ -1,3 +1,7 @@
+---
+description: "Find overdue, incomplete and quiet tenders"
+---
+
 # Find overdue, incomplete and quiet tenders
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

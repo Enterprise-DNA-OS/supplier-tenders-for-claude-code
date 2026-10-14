@@ -1,3 +1,7 @@
+---
+description: "Review unanswered supplier questions"
+---
+
 # Review unanswered supplier questions
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

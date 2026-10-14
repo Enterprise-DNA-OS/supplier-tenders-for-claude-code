@@ -1,3 +1,7 @@
+---
+description: "Find suppliers with missing lot prices"
+---
+
 # Find suppliers with missing lot prices
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

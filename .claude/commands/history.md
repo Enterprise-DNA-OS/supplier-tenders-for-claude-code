@@ -1,3 +1,7 @@
+---
+description: "Read the activity record"
+---
+
 # Read the activity record
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

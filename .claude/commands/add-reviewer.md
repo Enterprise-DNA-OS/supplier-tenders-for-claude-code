@@ -1,3 +1,7 @@
+---
+description: "Add a panel member before evaluation"
+---
+
 # Add a panel member before evaluation
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

@@ -1,3 +1,7 @@
+---
+description: "Freeze tender lots and criteria and open the internal record"
+---
+
 # Freeze tender lots and criteria and open the internal record
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

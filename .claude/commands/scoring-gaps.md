@@ -1,3 +1,7 @@
+---
+description: "Find each missing reviewer score"
+---
+
 # Find each missing reviewer score
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

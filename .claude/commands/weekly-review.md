@@ -1,3 +1,7 @@
+---
+description: "Prepare the Monday review from dates, scores and questions"
+---
+
 # Prepare the Monday review from dates, scores and questions
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

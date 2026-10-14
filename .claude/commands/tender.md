@@ -1,3 +1,7 @@
+---
+description: "Read a tender with bids, scoring and history"
+---
+
 # Read a tender with bids, scoring and history
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

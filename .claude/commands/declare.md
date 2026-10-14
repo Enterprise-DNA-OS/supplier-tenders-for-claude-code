@@ -1,3 +1,7 @@
+---
+description: "Record a conflict declaration and evidence"
+---
+
 # Record a conflict declaration and evidence
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

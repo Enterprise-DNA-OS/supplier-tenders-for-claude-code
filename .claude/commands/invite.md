@@ -1,3 +1,7 @@
+---
+description: "Record supplier participation without sending an invitation"
+---
+
 # Record supplier participation without sending an invitation
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

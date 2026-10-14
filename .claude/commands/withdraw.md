@@ -1,3 +1,7 @@
+---
+description: "Record a supplier withdrawal with its reason"
+---
+
 # Record a supplier withdrawal with its reason
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

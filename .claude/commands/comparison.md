@@ -1,3 +1,7 @@
+---
+description: "Compare complete bid totals and weighted scores"
+---
+
 # Compare complete bid totals and weighted scores
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

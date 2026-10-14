@@ -1,3 +1,7 @@
+---
+description: "Write an internal review draft without sending"
+---
+
 # Write an internal review draft without sending
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

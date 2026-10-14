@@ -1,3 +1,7 @@
+---
+description: "Confirm source dates and lead times on an imported bid"
+---
+
 # Confirm source dates and lead times on an imported bid
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

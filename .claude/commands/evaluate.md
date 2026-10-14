@@ -1,3 +1,7 @@
+---
+description: "Start evaluation after the closing day"
+---
+
 # Start evaluation after the closing day
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

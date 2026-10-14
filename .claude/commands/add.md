@@ -1,3 +1,7 @@
+---
+description: "Create a draft tender"
+---
+
 # Create a draft tender
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

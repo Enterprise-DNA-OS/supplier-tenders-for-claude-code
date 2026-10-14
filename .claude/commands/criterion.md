@@ -1,3 +1,7 @@
+---
+description: "Set an evaluation criterion and its weight"
+---
+
 # Set an evaluation criterion and its weight
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

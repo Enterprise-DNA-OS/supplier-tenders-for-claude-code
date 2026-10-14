@@ -1,3 +1,7 @@
+---
+description: "Record a separately approved award with a frozen evaluation snapshot"
+---
+
 # Record a separately approved award with a frozen evaluation snapshot
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

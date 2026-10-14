@@ -1,3 +1,7 @@
+---
+description: "Record a question for follow-up"
+---
+
 # Record a question for follow-up
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

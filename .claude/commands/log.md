@@ -1,3 +1,7 @@
+---
+description: "Record a tender note"
+---
+
 # Record a tender note
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

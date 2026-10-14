@@ -1,3 +1,7 @@
+---
+description: "Write all eleven record sets to a new JSON file"
+---
+
 # Write all eleven record sets to a new JSON file
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

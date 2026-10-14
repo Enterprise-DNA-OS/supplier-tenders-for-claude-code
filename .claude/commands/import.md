@@ -1,3 +1,7 @@
+---
+description: "Preview and import a mapped Market Dojo bid export"
+---
+
 # Preview and import a mapped Market Dojo bid export
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

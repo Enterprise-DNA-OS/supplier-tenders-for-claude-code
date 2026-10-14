@@ -1,3 +1,7 @@
+---
+description: "Assign the accountable owner of a draft tender"
+---
+
 # Assign the accountable owner of a draft tender
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

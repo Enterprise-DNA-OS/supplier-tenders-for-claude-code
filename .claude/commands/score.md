@@ -1,3 +1,7 @@
+---
+description: "Record a reviewer score and its rationale"
+---
+
 # Record a reviewer score and its rationale
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

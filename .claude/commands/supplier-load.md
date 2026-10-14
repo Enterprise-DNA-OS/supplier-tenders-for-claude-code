@@ -1,3 +1,7 @@
+---
+description: "See suppliers active across several tenders"
+---
+
 # See suppliers active across several tenders
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

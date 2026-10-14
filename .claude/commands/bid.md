@@ -1,3 +1,7 @@
+---
+description: "Record one received supplier offer for a lot"
+---
+
 # Record one received supplier offer for a lot
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

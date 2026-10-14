@@ -1,3 +1,7 @@
+---
+description: "Check upcoming and overdue tender closing dates"
+---
+
 # Check upcoming and overdue tender closing dates
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

@@ -1,3 +1,7 @@
+---
+description: "Read the tender register"
+---
+
 # Read the tender register
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

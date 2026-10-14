@@ -1,3 +1,7 @@
+---
+description: "Record a clarification answer and evidence"
+---
+
 # Record a clarification answer and evidence
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

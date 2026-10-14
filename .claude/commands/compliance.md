@@ -1,3 +1,7 @@
+---
+description: "Check declarations, coverage and evaluation evidence"
+---
+
 # Check declarations, coverage and evaluation evidence
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

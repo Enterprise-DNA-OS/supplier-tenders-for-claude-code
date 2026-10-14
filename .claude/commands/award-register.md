@@ -1,3 +1,7 @@
+---
+description: "Read approved award decisions"
+---
+
 # Read approved award decisions
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

@@ -1,3 +1,7 @@
+---
+description: "Register a supplier"
+---
+
 # Register a supplier
 
 Read CLAUDE.md first. Read the relevant tender before changing records.

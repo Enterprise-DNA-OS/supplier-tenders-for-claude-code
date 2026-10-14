@@ -1,0 +1,12 @@
+{
+  "event_id": "Event ID",
+  "event_name": "Event Name",
+  "supplier_id": "Supplier ID",
+  "supplier_name": "Supplier Name",
+  "lot_id": "Lot ID",
+  "lot_name": "Lot Name",
+  "quantity": "Quantity",
+  "unit_price": "Unit Price",
+  "currency": "Currency",
+  "closes": "Closing Date"
+}

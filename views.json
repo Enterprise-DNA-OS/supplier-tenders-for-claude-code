@@ -1,13 +1,35 @@
 [
   {
     "name": "week",
-    "title": "This week",
-    "subtitle": "Supplier Tenders for Claude Code: what needs attention, rendered by npm run view",
+    "title": "Supplier tender review",
+    "subtitle": "Read-only snapshot. Prices remain in each tender currency.",
     "sections": [
       {
-        "title": "Needs attention",
-        "note": "TODO(author): point this at the industry's attention view (overdue, stuck, quiet).",
-        "sql": "select 'replace me' as item, 'TODO(author)' as why"
+        "title": "Tender dates and overdue work",
+        "sql": "select reference,name,owner,currency,status,closes_on,scores_missing,overdue_questions from tender_week order by closes_on"
+      },
+      {
+        "title": "Missing bids",
+        "sql": "select reference,supplier,expected_lots,quoted_lots,missing_lots from bid_coverage where participation='active' order by reference,supplier"
+      },
+      {
+        "title": "Scoring still required",
+        "sql": "select reference,supplier,criterion,reviewer from scoring_gaps order by reference,supplier"
+      }
+    ]
+  },
+  {
+    "name": "evaluation",
+    "title": "Evaluation and record checks",
+    "sections": [
+      {
+        "title": "Comparable offers",
+        "note": "Blank totals or scores mean incomplete evidence. Scores are not a decision.",
+        "sql": "select reference,supplier,currency,total,max_lead_days,weighted_score,open_questions from comparison order by reference,supplier"
+      },
+      {
+        "title": "Record exceptions",
+        "sql": "select reference,rule,issue from compliance_checks order by reference,rule"
       }
     ]
   }

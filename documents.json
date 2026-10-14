@@ -1,11 +1,67 @@
 [
   {
-    "name": "example",
-    "title": "TODO(author): the first document this industry must produce",
-    "for_each": "select gen_random_uuid() as id, 'Example' as name",
-    "file": "name",
+    "name": "evaluation-brief",
+    "title": "Tender evaluation brief",
+    "for_each": "select id,reference from tenders order by reference",
+    "file": "reference",
     "sections": [
-      { "title": "Details", "sql": "select 'replace me' as item, $1::text as record_id" }
+      {
+        "title": "Tender scope",
+        "sql": "select reference,name,owner,currency,closes_on,status from tenders where id=$1"
+      },
+      {
+        "title": "Required lots",
+        "sql": "select reference,name,quantity,unit from lots where tender_id=$1 order by reference"
+      },
+      {
+        "title": "Offer comparison",
+        "sql": "select supplier,currency,total,max_lead_days,weighted_score,open_questions from comparison where tender_id=$1 order by supplier"
+      },
+      {
+        "title": "Criteria",
+        "sql": "select name,weight from criteria where tender_id=$1 order by name"
+      },
+      {
+        "title": "Record checks",
+        "sql": "select rule,issue from compliance_checks where tender_id=$1 order by rule"
+      }
+    ]
+  },
+  {
+    "name": "probity-record",
+    "title": "Evaluation declarations and evidence",
+    "for_each": "select id,reference from tenders order by reference",
+    "file": "reference",
+    "sections": [
+      {
+        "title": "Panel declarations",
+        "sql": "select name,declaration,evidence from panel where tender_id=$1 order by name"
+      },
+      {
+        "title": "Recorded scores",
+        "sql": "select s.name supplier,c.name criterion,p.name reviewer,sc.value,sc.rationale from scores sc join suppliers s on s.id=sc.supplier_id join criteria c on c.id=sc.criterion_id join panel p on p.id=sc.panel_id where sc.tender_id=$1 order by s.name,c.name,p.name"
+      },
+      {
+        "title": "Clarifications",
+        "sql": "select reference,question,owner,due_on,answer,evidence from clarifications where tender_id=$1 order by reference"
+      }
+    ]
+  },
+  {
+    "name": "award-record",
+    "title": "Recorded award decision",
+    "for_each": "select t.id,t.reference from tenders t join decisions d on d.tender_id=t.id",
+    "file": "reference",
+    "sections": [
+      {
+        "title": "Decision",
+        "sql": "select s.name supplier,d.approved_by,d.rationale,d.evidence,d.created_at from decisions d join suppliers s on s.id=d.supplier_id where d.tender_id=$1"
+      },
+      {
+        "title": "Frozen evaluation snapshot",
+        "note": "An internal record of a human approval. This document sends no award or contract.",
+        "sql": "select snapshot from decisions where tender_id=$1"
+      }
     ]
   }
 ]

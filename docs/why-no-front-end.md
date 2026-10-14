@@ -1,24 +1,7 @@
-# Why there is no front end
+# Why this evaluation desk has no front end
 
-Market Dojo is a database with a subscription. The tables underneath it are ordinary: a few entities, a few relationships, a handful of workflows you repeat every week. What you pay for is the layer on top that lets people who do not write SQL get at those tables. Screens, filters, dashboards, forms.
+A purchasing lead can keep tenders, quoted lots, reviewer scores and approval evidence in one database. Commands answer the Monday questions and record explicit changes. The weekly HTML snapshot and printable evaluation brief show the records without a running application.
 
-That layer used to be the whole product, because talking to a database was hard. It is not hard any more. Open this folder in Claude Code, describe what you want, and it writes the query, runs it, and explains the answer. Ask a question the dashboard never had a chart for and you still get an answer.
+A screen provides things this base does not: supplier self-service, mobile capture, offline work, simultaneous live auctions, drag-and-drop matrices and authenticated evaluator workspaces. This build is useful for internal tender evaluation after offers arrive through the business's existing channels. It does not replace a live reverse-auction platform.
 
-## What you gain
-
-- **Better answers.** A dashboard shows what the vendor decided to chart. Here you ask your own question, in your own words, and get it answered against your own data.
-- **No seats.** Everyone who needs to look can look. The bill does not grow with headcount.
-- **Your data in your Postgres.** Plain tables. Back them up, query them from anything, leave any time. There is no export step because there is nothing to leave.
-- **A process that matches you.** When your way of working changes, you add a command. You do not wait for a feature request to clear.
-
-## What you give up
-
-- **A visual board.** Stages are a table you ask about, not cards you drag.
-- **A phone app.** It runs where Claude Code runs.
-- **A vendor help desk.** This is open source. Enterprise DNA supports the installed version for businesses that want someone to call.
-
-## Who this fits
-
-Small teams who already use Claude Code, or who would rather learn to ask than learn another interface. If your team needs a screen to look at all day, keep Market Dojo. If you need the answers more than the screens, this is cheaper, faster and yours.
-
-Installed and run for you: https://enterprisedna.co/omni/instead-of/market-dojo
+The database is the product. Your agent reads the same CLI and operating instructions. You can add fields, change a local rule through a migration or add a read-only view. Enterprise DNA can build the supplier interface, integrations and access controls your version needs, with one setup fee and then a retainer through Omni by Enterprise DNA.
